@@ -1,0 +1,35 @@
+Exploration ideas:
+- Interactive map of the world with pisa scores
+- US Pisa scores by state
+	- link to wikipedia
+	- include bar graph
+- Use dual axis to show overlay of reading, science and math scores
+- Small multiples with maps for reading, science and math scores
+- Use filters to showcase certain parts of the data
+- Create sets of countries based on criteria (performance?):
+	- Low
+	- Medium
+	- High
+- Think carefully about whether / how you'd use groups
+- Consider combined sets or sets based on criteria to look for shared trends:
+	- Ex: select high-performing group and see what they have in common with other data points
+- Create a calculated field (math/science score or some other calculation)
+- Use a table calculation to show the percent difference, percentage of total or rank
+- Combine with other years to show country rankings over time
+
+Todo:
+- Clean data:
+	- Check variable categories
+	- Split data if multiple variables in one column
+	- Review tidy data guidelines
+- Manipulating variables
+	- Consider creating your own heirarchy
+- Adding more data:
+	- Consider adding employment data with a union to show employment outcomes
+	- Consider adding population data with a union to look for patterns
+
+Feedback:
+Hey ___, for my next project I need to create a visualization story and get feedback from others. Below is a summary of the project goals and a link to the visualizations I created. Could you please give me some constructive feedback? Thanks in advance!
+
+https://docs.google.com/document/d/19XGi86KqCVVFLP1Dgck1we7aYSlK9HpG-m0bkUev5Zg/edit?usp=sharing
+
