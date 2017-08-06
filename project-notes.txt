@@ -19,8 +19,10 @@ Exploration ideas:
 
 Todo:
 - Clean data:
+	- Rewrite var names so they’re human readable 
 	- Check variable categories
 	- Split data if multiple variables in one column
+	- Transform survey data into likert scale (make it ordinal) (python?)
 	- Review tidy data guidelines
 - Manipulating variables
 	- Consider creating your own heirarchy
