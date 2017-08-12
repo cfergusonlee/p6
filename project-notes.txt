@@ -20,18 +20,66 @@ Exploration ideas:
 - Combine with other years to show country rankings over time
 - Use the categorical variables as field options and show how scores of different groups compare.
 
+Topics to explore:
+- Teachers
+	- Compare student view vs teacher view?
+		- Disciplinary climate vs classroom management
+	- Classroom management
+	- Formative assessment
+- Students
+	- Attitudes
+		- How they feel about school
+		- Attributions to failure
+		- Instrumental motivation (is this a student or teacher question?)
+		- Math
+			- Behavior
+			- Intentions
+			- Anxiety
+			- Interest
+			- Self-concept
+			- Self-efficacy
+			- Teaching
+			- Work ethic
+		- Perceived control
+		- Perseverence
+		- Sense of belonging
+		- Subjective norms
+	- Teacher support
+	- Behavior
+		- Truancy
+	- Cognition
+		- 
+	- Experience
+		- Exp with math tasks
+		- Familiarit with math concepts
+		- First use of internet and computers
+	- Demographics
+		- Wealth
+		- Gender
+		- Grade repetition
+		- Immigration status
+	- Work-related
+		- Future orientation
+		- School to work
+- Schools / Leadership
+- Home life (parents included)
+	- Acculturation / heritage
+	- Family information (parents, grandparents, siblings, etc)
+	- Wealth
+	- First language learned
+
+
 Todo:
 - Clean data:
-	- Rewrite var names so they’re human readable 
 	- Check variable categories
 	- Split data if multiple variables in one column
-	- Transform survey data into likert scale (make it ordinal) (python?)
 	- Review tidy data guidelines
 - Manipulating variables
 	- Consider creating your own heirarchy
 - Adding more data:
 	- Consider adding employment data with a union to show employment outcomes
 	- Consider adding population data with a union to look for patterns
+- Learn how Quantitative Variables are set up
 
 Feedback:
 Hey ___, for my next project I need to create a visualization story and get feedback from others. Below is a summary of the project goals and a link to the visualizations I created. Could you please give me some constructive feedback? Thanks in advance!
