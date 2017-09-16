@@ -86,3 +86,16 @@ Hey ___, for my next project I need to create a visualization story and get feed
 
 https://docs.google.com/document/d/19XGi86KqCVVFLP1Dgck1we7aYSlK9HpG-m0bkUev5Zg/edit?usp=sharing
 
+Survey Category breakdowns:
+1. Region (Continent)
+2. Score percentiles
+3. Gender
+4. 
+
+
+Sections
+1. Horizontal Stacked bar chart of top 5 vs lowest 5 countries
+	a. Breakdown by:
+		1. Wealth
+		2. Gender
+
