@@ -2,7 +2,7 @@ Exploration ideas:
 - Interactive map of the world with pisa scores
 - World Pisa scores by Country Dashboard. Three panes:
 	- World map with dropdown for category
-	- link to wikipedia
+	- link to country education page on wikipedia
 	- Bar graph or histogram for each country
 - Use dual axis to show overlay of reading, science and math scores
 - Small multiples with maps for reading, science and math scores
