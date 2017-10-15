@@ -82,22 +82,14 @@ Todo:
 - Learn how Quantitative Variables are set up
 
 Feedback:
-Hey ___, for my next project I need to create a visualization story and get feedback from others. Below is a summary of the project goals and a link to the visualizations I created. Could you please give me some constructive feedback? Thanks in advance!
+Hey Sean, for my next project I need to create a visualization in Tableau and get feedback from others. Below is a summary of the project goals and a link to the project. Do you think you could give me your first thoughts / constructive feedback on the visualizations? Here are a few areas I’m trying to focus on:
 
-https://docs.google.com/document/d/19XGi86KqCVVFLP1Dgck1we7aYSlK9HpG-m0bkUev5Zg/edit?usp=sharing
+1. What do you notice in the visualization?
+2. What questions do you have about the data?
+3. What relationships do you notice?
+4. What do you think is the main takeaway from this visualization?
+5. Is there something you don’t understand in the graphic?
 
-Survey Category breakdowns:
-1. Region (Continent)
-2. Score percentiles
-3. Gender
-4. 
+https://public.tableau.com/profile/courtney.ferguson.lee#!/vizhome/PISAVisualizations/PISAStory
 
-
-Sections
-1. Horizontal Stacked bar chart of top 5 vs lowest 5 countries
-	a. Breakdown by:
-		1. Wealth
-		2. Gender gap?
-		3. Attributions to failure in Mathematics
-		4. Parent educational level
-
+P.S. I forgot to mention there are 3 story points in the visualization. You can navigate to each using the arrows on either side of the grey boxes. One of the goals for this project is to get a first draft out, iterating on it through feedback and document the process. Please let me know if there’s anything I could change or add (including adding more story points) that would improve the draft. Thanks again and let me know what you think.
