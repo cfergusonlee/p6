@@ -11853,12 +11853,12 @@ $( document ).ready(function(){
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Process-Overview">Process Overview<a class="anchor-link" href="#Process-Overview">&#182;</a></h1><ol>
-<li>Data cleaning</li>
-<li>Domain research</li>
-<li>Data manipulation</li>
-<li>Exploration</li>
-<li>Explanatory Analysis in Tableau</li>
+<h1 id="Plan-of-Attack">Plan of Attack<a class="anchor-link" href="#Plan-of-Attack">&#182;</a></h1><ol>
+<li>Data cleaning (Python)</li>
+<li>Domain research (PISA reference manual, website)</li>
+<li>Data manipulation (Python)</li>
+<li>Exploration (Tableau)</li>
+<li>Explanatory Analysis (Tableau)</li>
 </ol>
 
 </div>
@@ -12130,195 +12130,13 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">pisa</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">Out[20]:</div>
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th></th>
-      <th>Country code 3-character</th>
-      <th>Adjudicated sub-region code 7-digit code (3-digit country code + region ID + stratum ID)</th>
-      <th>Stratum ID 7-character (cnt + region ID + original stratum ID)</th>
-      <th>OECD country</th>
-      <th>National Centre 6-digit Code</th>
-      <th>School ID 7-digit (region ID + stratum ID + 3-digit school ID)</th>
-      <th>Student ID</th>
-      <th>International Grade</th>
-      <th>National Study Programme</th>
-      <th>...</th>
-      <th>FINAL STUDENT REPLICATE BRR-FAY WEIGHT75</th>
-      <th>FINAL STUDENT REPLICATE BRR-FAY WEIGHT76</th>
-      <th>FINAL STUDENT REPLICATE BRR-FAY WEIGHT77</th>
-      <th>FINAL STUDENT REPLICATE BRR-FAY WEIGHT78</th>
-      <th>FINAL STUDENT REPLICATE BRR-FAY WEIGHT79</th>
-      <th>FINAL STUDENT REPLICATE BRR-FAY WEIGHT80</th>
-      <th>RANDOMIZED FINAL VARIANCE STRATUM (1-80)</th>
-      <th>RANDOMLY ASSIGNED VARIANCE UNIT</th>
-      <th>Senate weight - sum of weight within the country is 1000</th>
-      <th>Date of the database creation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>Albania</td>
-      <td>80000</td>
-      <td>ALB0006</td>
-      <td>Non-OECD</td>
-      <td>Albania</td>
-      <td>1</td>
-      <td>1</td>
-      <td>10</td>
-      <td>1.0</td>
-      <td>...</td>
-      <td>13.7954</td>
-      <td>13.9235</td>
-      <td>13.1249</td>
-      <td>13.1249</td>
-      <td>4.3389</td>
-      <td>13.0829</td>
-      <td>19</td>
-      <td>1</td>
-      <td>0.2098</td>
-      <td>22NOV13</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>Albania</td>
-      <td>80000</td>
-      <td>ALB0006</td>
-      <td>Non-OECD</td>
-      <td>Albania</td>
-      <td>1</td>
-      <td>2</td>
-      <td>10</td>
-      <td>1.0</td>
-      <td>...</td>
-      <td>13.7954</td>
-      <td>13.9235</td>
-      <td>13.1249</td>
-      <td>13.1249</td>
-      <td>4.3389</td>
-      <td>13.0829</td>
-      <td>19</td>
-      <td>1</td>
-      <td>0.2098</td>
-      <td>22NOV13</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>Albania</td>
-      <td>80000</td>
-      <td>ALB0006</td>
-      <td>Non-OECD</td>
-      <td>Albania</td>
-      <td>1</td>
-      <td>3</td>
-      <td>9</td>
-      <td>1.0</td>
-      <td>...</td>
-      <td>12.7307</td>
-      <td>12.7307</td>
-      <td>12.7307</td>
-      <td>12.7307</td>
-      <td>4.2436</td>
-      <td>12.7307</td>
-      <td>19</td>
-      <td>1</td>
-      <td>0.1999</td>
-      <td>22NOV13</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>Albania</td>
-      <td>80000</td>
-      <td>ALB0006</td>
-      <td>Non-OECD</td>
-      <td>Albania</td>
-      <td>1</td>
-      <td>4</td>
-      <td>9</td>
-      <td>1.0</td>
-      <td>...</td>
-      <td>12.7307</td>
-      <td>12.7307</td>
-      <td>12.7307</td>
-      <td>12.7307</td>
-      <td>4.2436</td>
-      <td>12.7307</td>
-      <td>19</td>
-      <td>1</td>
-      <td>0.1999</td>
-      <td>22NOV13</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>Albania</td>
-      <td>80000</td>
-      <td>ALB0006</td>
-      <td>Non-OECD</td>
-      <td>Albania</td>
-      <td>1</td>
-      <td>5</td>
-      <td>9</td>
-      <td>1.0</td>
-      <td>...</td>
-      <td>12.7307</td>
-      <td>12.7307</td>
-      <td>12.7307</td>
-      <td>12.7307</td>
-      <td>4.2436</td>
-      <td>12.7307</td>
-      <td>19</td>
-      <td>1</td>
-      <td>0.1999</td>
-      <td>22NOV13</td>
-    </tr>
-  </tbody>
-</table>
-<p>5 rows × 636 columns</p>
-</div>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -12374,6 +12192,15 @@ $( document ).ready(function(){
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Data-Manipulation">Data Manipulation<a class="anchor-link" href="#Data-Manipulation">&#182;</a></h1>
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
