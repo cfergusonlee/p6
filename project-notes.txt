@@ -82,7 +82,7 @@ Todo:
 - Learn how Quantitative Variables are set up
 
 Feedback:
-Hey Sean, for my next project I need to create a visualization in Tableau and get feedback from others. Below is a summary of the project goals and a link to the project. Do you think you could give me your first thoughts / constructive feedback on the visualizations? Here are a few areas I’m trying to focus on:
+Hey Bud, for my next project I need to create a visualization in Tableau and get feedback from others. Below is a summary of the project goals and a link to the project. Do you think you could give me your first thoughts / constructive feedback on the visualizations? Here are a few areas I’m trying to focus on:
 
 1. What do you notice in the visualization?
 2. What questions do you have about the data?
